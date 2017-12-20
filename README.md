@@ -1,22 +1,15 @@
-# libwebview
+# Jaguar Helium
 
-A library for Dart developers.
+Helium is a cross-platform HTML5, CSS and Dart based desktop GUI framework.
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+It is built using Qt5 Web engine.
 
-## Usage
+# Setting up
 
-A simple usage example:
+## Ubuntu
 
-    import 'package:libwebview/libwebview.dart';
+Install Qt libraries:
 
-    main() {
-      var awesome = new Awesome();
-    }
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+```bash
+sudo apt install qtdeclarative5-dev libqt5webengine5
+```
